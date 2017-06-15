@@ -1,0 +1,46 @@
+{
+  "name": "vue-filters-component",
+  "version": "0.0.1",
+  "description": "component of filters",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --env=development --progress --colors",
+    "test": "mocha ./frontend/test/**/*-test.js --compilers js:babel-core/register",
+    "prod": "webpack --progress --env=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scarry1992/vue-filters-component.git"
+  },
+  "author": "Sergei Buncevich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scarry1992/vue-filters-component/issues"
+  },
+  "homepage": "https://github.com/scarry1992/vue-filters-component#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0",
+    "nock": "^9.0.13",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-register": "^6.24.1",
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.10.1",
+    "html-webpack-plugin": "^2.28.0",
+    "isomorphic-fetch": "^2.2.1",
+    "style-loader": "^0.16.1",
+    "vue": "^2.3.4",
+    "vue-loader": "^12.2.1",
+    "vue-router": "^2.5.3",
+    "vue-template-compiler": "^2.3.4",
+    "vuex": "^2.3.1",
+    "webpack": "^2.6.1"
+  }
+}

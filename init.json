@@ -1,0 +1,39 @@
+[
+  {
+    "type": "input-checkbox",
+    "payload": {
+      "state": true,
+      "id": 32456,
+      "label": "isNeeded"
+    }
+  },
+  {
+    "type": "input-select",
+    "payload": {
+      "id": 65456,
+      "label": "Count of",
+      "state": 657,
+      "options": [
+        {"id": 656, "label": 12},
+        {"id": 657, "label": 24},
+        {"id": 658, "label": 48}
+      ]
+    }
+  },
+  {
+    "type": "input-text",
+    "payload": {
+      "id": 32459,
+      "label": "Word",
+      "state": ""
+    }
+  },
+  {
+    "type": "input-range",
+    "payload": {
+      "id": 32443,
+      "label": "Cost",
+      "state": [23, 65]
+    }
+  }
+]

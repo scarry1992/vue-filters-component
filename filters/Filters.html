@@ -1,0 +1,14 @@
+<div id="app">
+    <form action="/">
+        <h1>{{oneElemInUse}}</h1>
+
+        <component
+            v-for="elem in elements"
+            :key="elem.id"
+            :is="elem.type"
+            :initState="elem.payload"
+        >
+
+        </component>
+    </form>
+</div>
